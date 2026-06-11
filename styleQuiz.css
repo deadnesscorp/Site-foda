@@ -1,3 +1,6 @@
+    body {
+        background-color: #112222;
+    }
     .titulo {
         margin-top: -70px;
         font-size: 60px;
@@ -20,31 +23,54 @@
         margin-top: -40px;
         border-radius: 20px;
         filter: drop-shadow(12.5px 1px 5px rgba(0, 0, 0, 0.7));
-    }   
-
-
-
-    .firstpergunta {
-        margin-top: 50px;
-    }
-
-    body {
-        background-color: #112222;
-    }
-
-
+        position: relative;
+        animation: giraY 3s forwards;
+        }
+            @keyframes giraY {
+            0% {
+            transform: rotateY(0deg); 
+            }
+            100% {
+            transform: rotateY(1800deg); 
+            }
+        } 
+     
 /* Questão1 */
+ 
+    .quadrados {
+        position: relative;
+        width: 1250px;
+        height: 300px;
+        background-color: #274e4ea4;
+        margin-top: 60px;
+        border-radius: 20px;
+        box-shadow: 12.5px 6px 5px rgba(0, 0, 0, 0.7);
+        animation: leftToRight 1.2s forwards;
+        }
+            @keyframes leftToRight {
+            0% {
+            transform: translateX(-100%); 
+            }
+            100% {
+            transform: translateX(0); 
+            }
+        } 
+    
 
     .pergunta {
-        padding: -100px;
-        font-size: 20px;
+        font-size: 26px;
         font-family: animeace, sans-serif;
         color: #000000;
-            width: 850px;
-            height: 70px;
-            background-color: #274e4ea4;
-            margin-top: -12.5px;
-            border-radius: 20px;
-            box-shadow: 12.5px 6px 5px rgba(0, 0, 0, 0.7);
-           
+        position: relative;
+        left: 15px;
+        bottom: -5px;
+        
     }
+    .Alternativas {
+        font-size: 20px;
+        font-family: animeace, sans-serif;
+    }
+  input[type="radio"] {
+    accent-color: #112222;
+}
+    
