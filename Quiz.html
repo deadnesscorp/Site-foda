@@ -19,10 +19,53 @@
      
 
     <!-- Questões do quiz -->
-        <div class="quadrados">
-            <h2 class="pergunta"><strong>1- O que é hardware?</strong></h2>
-        <input type="radio" name="pergunta1" value="a">A) Um programa responsável por gerenciar arquivos do computador.
-        </div>
+<div class="quadrados">
+    <h2 class="pergunta"><strong>1- O que é hardware?</strong></h2>
+          
+    <form>
+  
+        <input type="radio" id="cor-vermelho" name="cor" value="vermelho">
+        <label for="cor-vermelho">A) Um programa de computador</label><br>
+
+        <input type="radio" id="cor-azul" name="cor" value="azul" checked>
+        <label for="cor-azul">B) As partes físicas do computador Um pro
+        </label><br>
+
+        <input type="radio" id="cor-verde" name="cor" value="verde">
+        <label for="cor-verde">C) Um sistema operacional</label><br>
+
+        <input type="radio" id="cor-amarelo" name="cor" value="amarelo">
+        <label for="cor-amarelo">D) Um tipo de arquivo</label>
+
+    </form>
+
+ </div>
+
+
+<div class="quadrados">
+    <h2 class="pergunta"><strong>2- Qual dos componentes abaixo é considerado um hardware?</strong></h2>
+          
+    <form>
+  
+        <input type="radio" id="cor-branco" name="cor" value="branco">
+        <label for="cor-branco"> A) Windows</label><br>
+
+        <input type="radio" id="cor-azul" name="cor" value="azul" checked>
+        <label for="cor-azul">B) Google Chrome</label><br>
+
+        <input type="radio" id="cor-verde" name="cor" value="verde">
+        <label for="cor-verde">C) Teclado</label><br>
+
+        <input type="radio" id="cor-amarelo" name="cor" value="amarelo">
+        <label for="cor-amarelo">D) Word</label>
+         <button type="button" onclick="confirmarOpcao()">
+        Confirmar
+    </button>
+
+    </form>
+
+</div>
+        
 
     <!-- Fim das questões do quiz -->
 
