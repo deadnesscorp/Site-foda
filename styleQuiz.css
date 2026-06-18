@@ -1,5 +1,6 @@
     body {
         background-color: #112222;
+        font-family: animeace, sans-serif;
     }
     .titulo {
         margin-top: -70px;
@@ -38,6 +39,7 @@
 /* Questão1 */
  
     .quadrados {
+        left: 10px;
         position: relative;
         width: 1250px;
         height: 300px;
@@ -72,12 +74,12 @@
         font-family: animeace, sans-serif;
         display: inline-block;
         padding: 10px 20px;
-        margin: 5px 0;
-        background-color: #274e4ea4;
+        margin: 5px 10px;
+        background-color: #274e4e;
         color: rgb(0, 0, 0);
         border-radius: 10px;
         cursor: pointer;
-        transition: 0.3s;
+        transition: 0.5s;
     }
 
     label:hover {
@@ -86,7 +88,41 @@
 
 }
     input[type="radio"] {
+        display: none;
         width: 20px;
         height: 20px;
         accent-color: #244747;
+}
+
+    input[type="radio"]:checked + label {
+        transform: translateX(25px);
+        background-color: #112222;
+}
+  body {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    width: 97.5%;
+    height: 275px;
+    background-color: #274e4ea4;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    margin-top: -200px;
+    background-image: url("Pasta img.DANIEL/ChatGPT Image 17_06_2026, 22_10_51.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+footer p {
+    margin: 0;
+}
+.finalizar {
+    background-color: transparent;
+    border: none;
+    
 }
