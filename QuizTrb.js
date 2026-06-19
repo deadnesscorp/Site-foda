@@ -38,3 +38,4 @@ function Finalizar() {
     }
     document.querySelector(".botao").disabled = true;
 }
+

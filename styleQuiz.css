@@ -41,7 +41,7 @@
     .quadrados {
         left: 10px;
         position: relative;
-        width: 1225px;
+        width: 1200px;
         height: 300px;
         background-color: #274e4ea4;
         margin-top: 60px;
@@ -149,10 +149,12 @@ footer p {
 .imagens{
     height: 500px;
     width: 325px;
-    background-image: url("Pasta img.DANIEL/ChatGPT Image 9_06_20126, 19_21_26.png");
+    background-color: rgb(255, 255, 255);
     position: absolute;
-    top: 275px;
-    right: 10px;
-    border-radius: 50%;
-    box-shadow: 4px 2px 3px rgba(0, 0, 0, 0.7);
+    top: 295.5px;
+    right: 15px;
+    border-radius: 100px;
+    box-shadow: 2px 10px 3px rgba(0, 0, 0, 0.7);
+   
+    
 }

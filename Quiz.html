@@ -1,231 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz de Hardware e Software</title>
-        <link rel="stylesheet" href="styleQuiz.css">
-        <script src="QuizTrb.js"></script>
+    <link rel="stylesheet" href="styleQuiz.css">
+    <script src="QuizTrb.js"></script>
 </head>
-<body>
-<div align="right" class="imagens" ></div>
 
+<body>
+    <div align="right" class="imagens" style="background-image: url('Pasta img.DANIEL/ChatGPT Image 19_06_2026, 20_04_0181.png');"></div>
+    <div align="right" class="imagens" style="position: absolute; top:815px; right: 15px;  background-image: url('Pasta img.DANIEL/ChatGPT Image 9_06_20126, 19_21_26.png');">
+    </div>
+    <div align="right" class="imagens" style="position: absolute; top:1330px; right: 15px;  background-image: url('Pasta img.DANIEL/fvojesiut9w51.png11.png');">
+    </div>
+    <div align="right" class="imagens" style="position: absolute; top:1845px; right: 15px;  background-image: url('img.DANIEL/81F8arIWW2L._AC_UF1000,1000_QL80_.jpg');">
+    </div>
+Pasta 
 
 
 
 
 
     <!-- Titulo do quiz -->
-        <center>
-        <img class="imgfirts"  src="Pasta img.DANIEL/thumb-1920-879626.png" width="750px" height="400px" onclick="girar()">
+    <center>
+        <img class="imgfirts" src="Pasta img.DANIEL/thumb-1920-879626.png" width="750px" height="400px"
+            onclick="girar()">
         <div class="quadrado"></div>
         <h1 class="titulo">Quiz de Hardware e Software</h1>
-        </center>
+    </center>
 
-    <!-- Fim do titulo -->   
-     
-    
+    <!-- Fim do titulo -->
+
+
 
     <!-- Questões do quiz -->
-<div class="quadrados">
-    <h2 class="pergunta"><strong>1- O que é hardware?</strong></h2>
-          
-    <form>
-  
-        <input type="radio" id="cor-vermelho" name="q1" value="A">
-        <label for="cor-vermelho">A) Um programa de computador</label><br>
+    <div class="quadrados">
+        <h2 class="pergunta"><strong>1- O que é hardware?</strong></h2>
 
-        <input type="radio" id="cor-azul" name="q1" value="B">
-        <label for="cor-azul">B) As partes físicas do computador
-        </label><br>
+        <form>
 
-        <input type="radio" id="cor-verde" name="q1" value="C">
-        <label for="cor-verde">C) Um sistema operacional</label><br>
+            <input type="radio" id="cor-vermelho" name="q1" value="A">
+            <label for="cor-vermelho">A) Um programa de computador</label><br>
 
-        <input type="radio" id="cor-amarelo" name="q1" value="D">
-        <label for="cor-amarelo">D) Um tipo de arquivo</label>
+            <input type="radio" id="cor-azul" name="q1" value="B">
+            <label for="cor-azul">B) As partes físicas do computador
+            </label><br>
 
-    </form>
+            <input type="radio" id="cor-verde" name="q1" value="C">
+            <label for="cor-verde">C) Um sistema operacional</label><br>
 
- </div>
+            <input type="radio" id="cor-amarelo" name="q1" value="D">
+            <label for="cor-amarelo">D) Um tipo de arquivo</label>
 
+        </form>
 
-<div style="bottom: 45px;"  class="quadrados">
-    <h2 class="pergunta"><strong>2- Qual dos componentes abaixo é considerado um hardware?</strong></h2>
-          
-    <form>
-  
-        <input type="radio" id="cor-branco" name="q2" value="A">
-        <label for="cor-branco"> A) Windows</label><br>
-
-        <input type="radio" id="cor-azulturquesa" name="q2" value="B">
-        <label for="cor-azulturquesa">B) Google Chrome</label><br>
-
-        <input type="radio" id="cor-verde2-b" name="q2" value="C">
-        <label for="cor-verde2-b">C) Teclado</label><br>
-
-        <input type="radio" id="cor-amarelo2-c" name="q2" value="D">
-        <label for="cor-amarelo2-c">D) Word</label>
-        
-
-    </form>
-
-</div>
-
-<div style="bottom: 90px;"  class="quadrados">
-    <h2 class="pergunta"><strong>3- Qual é a função da memória RAM?</strong></h2>
-          
-    <form>
-  
-        <input type="radio" id="cor-branco3-a" name="q3" value="A">
-        <label for="cor-branco3-a"> A) Armazenar arquivos permanentemente</label><br>
-
-        <input type="radio" id="cor-azulturquesa3-b" name="q3" value="B">
-        <label for="cor-azulturquesa3-b">B) Exibir imagens na tela</label><br>
-
-        <input type="radio" id="cor-verde3-c" name="q3" value="C">
-        <label for="cor-verde3-c">C) Auxiliar na execução dos programas</label><br>
-
-        <input type="radio" id="cor-amarelo3-d" name="q3" value="D">
-        <label for="cor-amarelo3-d">D) Conectar o computador à internet</label>
-        
-
-    </form>
-
-</div>
-
-<div style="bottom: 135px;"  class="quadrados">
-    <h2 class="pergunta"><strong>4-Por que o hardware é essencial para o funcionamento do computador?</strong></h2>
-          
-    <form>
-  
-        <input type="radio" id="cor-branco4-a" name="q4" value="A">
-        <label for="cor-branco4-a"> A) Porque substitui os programas</label><br>
-
-        <input type="radio" id="cor-azulturquesa4-b" name="q4" value="B">
-        <label for="cor-azulturquesa4-b">B) Porque fornece a estrutura física necessária</label><br>
-
-        <input type="radio" id="cor-verde4-c" name="q4" value="C">
-        <label for="cor-verde4-c">C) Porque cria conexões de internet</label><br>
-
-        <input type="radio" id="cor-amarelo4-d" name="q4" value="D">
-        <label for="cor-amarelo4-d">D) Porque armazena apenas imagens e vídeos</label>
-        
-
-    </form>
-
-</div>
-
-<div style="bottom: 180px;"  class="quadrados">
-    <h2 class="pergunta"><strong>5- O que é software?</strong></h2>
-          
-    <form>
-  
-        <input type="radio" id="cor-branco5-a" name="q5" value="A">
-        <label for="cor-branco5-a">A) As partes físicas do computador</label><br>
-
-        <input type="radio" id="cor-azulturquesa5-b" name="q5" value="B">
-        <label for="cor-azulturquesa5-b">B) Os programas e sistemas que fazem o computador funcionar</label><br>
-
-        <input type="radio" id="cor-verde5-c" name="q5" value="C">
-        <label for="cor-verde5-c">C) Apenas os jogos instalados no computador</label><br>
-
-        <input type="radio" id="cor-amarelo5-d" name="q5" value="D">
-        <label for="cor-amarelo5-d">D) Os cabos e periféricos do computador</label>
-        
-
-    </form>
-
-</div>
-
-<div style="bottom: 225px;"  class="quadrados">
-    <h2 class="pergunta"><strong>6- Qual das alternativas abaixo é um exemplo de software?</strong></h2>
-          
-    <form>
-  
-        <input type="radio" id="cor-branco6-a" name="q6" value="A">
-        <label for="cor-branco6-a"> A) Monitor</label><br>
-
-        <input type="radio" id="cor-azulturquesa6-b" name="q6" value="B">
-        <label for="cor-azulturquesa6-b">B) Mouse</label><br>
-
-        <input type="radio" id="cor-verde6-c" name="q6" value="C">
-        <label for="cor-verde6-c">C) Gabinete</label><br>
-
-        <input type="radio" id="cor-amarelo6-d" name="q6" value="D">
-        <label for="cor-amarelo6-d">D) Windows</label>
-        
-
-    </form>
-
-</div>
-
-<div style="bottom: 270px;"  class="quadrados">
-    <h2 class="pergunta"><strong>7-Por que o hardware é essencial para o funcionamento do computador?</strong></h2>
-          
-    <form>
-  
-        <input type="radio" id="cor-branco7-a" name="q7" value="A">
-        <label for="cor-branco7-a"> A) Armazenar energia elétrica</label><br>
-
-        <input type="radio" id="cor-azulturquesa7-b" name="q7" value="B">
-        <label for="cor-azulturquesa7-b">B) Enviar instruções ao computador e executar tarefas</label><br>
-
-        <input type="radio" id="cor-verde7-c" name="q7" value="C">
-        <label for="cor-verde7-c">C) Resfriar os componentes do computador</label><br>
-
-        <input type="radio" id="cor-amarelo7-d" name="q7" value="D">
-        <label for="cor-amarelo7-d">D) Conectar peças físicas</label>
-        
-
-    </form>
-</div>
-
-<div style="bottom: 315px;"  class="quadrados">
-    <h2 class="pergunta"><strong>8- O que aconteceria se existisse apenas o hardware sem o software?</strong></h2>
-          
-    <form>
-  
-        <input type="radio" id="cor-branco8-a" name="q8" value="A">
-        <label for="cor-branco8-a"> A) O computador funcionaria normalmente</label><br>
-
-        <input type="radio" id="cor-azulturquesa8-b" name="q8" value="B">
-        <label for="cor-azulturquesa8-b">B) O computador seria mais rápido</label><br>
-
-        <input type="radio" id="cor-verde8-c" name="q8" value="C">
-        <label for="cor-verde8-c">C) O hardware seria apenas um conjunto de peças sem função prática</label><br>
-
-        <input type="radio" id="cor-amarelo8-d" name="q8" value="D">
-        <label for="cor-amarelo8-d">D) Os programas continuariam funcionando normalmente</label>
-        
-
-    </form>
-</div>
+    </div>
 
 
-<center>
-    <button type="button" class="botao" onclick="Finalizar()">
-        <strong>FINALIZAR</strong>
-    </button>
+    <div style="bottom: 45px;" class="quadrados">
+        <h2 class="pergunta"><strong>2- Qual dos componentes abaixo é considerado um hardware?</strong></h2>
 
-    <h2 style="color: aliceblue;" class=""  id="resultado"></h2>
-</center>
+        <form>
+
+            <input type="radio" id="cor-branco" name="q2" value="A">
+            <label for="cor-branco"> A) Windows</label><br>
+
+            <input type="radio" id="cor-azulturquesa" name="q2" value="B">
+            <label for="cor-azulturquesa">B) Google Chrome</label><br>
+
+            <input type="radio" id="cor-verde2-b" name="q2" value="C">
+            <label for="cor-verde2-b">C) Teclado</label><br>
+
+            <input type="radio" id="cor-amarelo2-c" name="q2" value="D">
+            <label for="cor-amarelo2-c">D) Word</label>
+
+
+        </form>
+
+    </div>
+
+    <div style="bottom: 90px;" class="quadrados">
+        <h2 class="pergunta"><strong>3- Qual é a função da memória RAM?</strong></h2>
+
+        <form>
+
+            <input type="radio" id="cor-branco3-a" name="q3" value="A">
+            <label for="cor-branco3-a"> A) Armazenar arquivos permanentemente</label><br>
+
+            <input type="radio" id="cor-azulturquesa3-b" name="q3" value="B">
+            <label for="cor-azulturquesa3-b">B) Exibir imagens na tela</label><br>
+
+            <input type="radio" id="cor-verde3-c" name="q3" value="C">
+            <label for="cor-verde3-c">C) Auxiliar na execução dos programas</label><br>
+
+            <input type="radio" id="cor-amarelo3-d" name="q3" value="D">
+            <label for="cor-amarelo3-d">D) Conectar o computador à internet</label>
+
+
+        </form>
+
+    </div>
+
+    <div style="bottom: 135px;" class="quadrados">
+        <h2 class="pergunta"><strong>4-Por que o hardware é essencial para o funcionamento do computador?</strong></h2>
+
+        <form>
+
+            <input type="radio" id="cor-branco4-a" name="q4" value="A">
+            <label for="cor-branco4-a"> A) Porque substitui os programas</label><br>
+
+            <input type="radio" id="cor-azulturquesa4-b" name="q4" value="B">
+            <label for="cor-azulturquesa4-b">B) Porque fornece a estrutura física necessária</label><br>
+
+            <input type="radio" id="cor-verde4-c" name="q4" value="C">
+            <label for="cor-verde4-c">C) Porque cria conexões de internet</label><br>
+
+            <input type="radio" id="cor-amarelo4-d" name="q4" value="D">
+            <label for="cor-amarelo4-d">D) Porque armazena apenas imagens e vídeos</label>
+
+
+        </form>
+
+    </div>
+
+    <div style="bottom: 180px;" class="quadrados">
+        <h2 class="pergunta"><strong>5- O que é software?</strong></h2>
+
+        <form>
+
+            <input type="radio" id="cor-branco5-a" name="q5" value="A">
+            <label for="cor-branco5-a">A) As partes físicas do computador</label><br>
+
+            <input type="radio" id="cor-azulturquesa5-b" name="q5" value="B">
+            <label for="cor-azulturquesa5-b">B) Os programas e sistemas que fazem o computador funcionar</label><br>
+
+            <input type="radio" id="cor-verde5-c" name="q5" value="C">
+            <label for="cor-verde5-c">C) Apenas os jogos instalados no computador</label><br>
+
+            <input type="radio" id="cor-amarelo5-d" name="q5" value="D">
+            <label for="cor-amarelo5-d">D) Os cabos e periféricos do computador</label>
+
+
+        </form>
+
+    </div>
+
+    <div style="bottom: 225px;" class="quadrados">
+        <h2 class="pergunta"><strong>6- Qual das alternativas abaixo é um exemplo de software?</strong></h2>
+
+        <form>
+
+            <input type="radio" id="cor-branco6-a" name="q6" value="A">
+            <label for="cor-branco6-a"> A) Monitor</label><br>
+
+            <input type="radio" id="cor-azulturquesa6-b" name="q6" value="B">
+            <label for="cor-azulturquesa6-b">B) Mouse</label><br>
+
+            <input type="radio" id="cor-verde6-c" name="q6" value="C">
+            <label for="cor-verde6-c">C) Gabinete</label><br>
+
+            <input type="radio" id="cor-amarelo6-d" name="q6" value="D">
+            <label for="cor-amarelo6-d">D) Windows</label>
+
+
+        </form>
+
+    </div>
+
+    <div style="bottom: 270px;" class="quadrados">
+        <h2 class="pergunta"><strong>7-Por que o hardware é essencial para o funcionamento do computador?</strong></h2>
+
+        <form>
+
+            <input type="radio" id="cor-branco7-a" name="q7" value="A">
+            <label for="cor-branco7-a"> A) Armazenar energia elétrica</label><br>
+
+            <input type="radio" id="cor-azulturquesa7-b" name="q7" value="B">
+            <label for="cor-azulturquesa7-b">B) Enviar instruções ao computador e executar tarefas</label><br>
+
+            <input type="radio" id="cor-verde7-c" name="q7" value="C">
+            <label for="cor-verde7-c">C) Resfriar os componentes do computador</label><br>
+
+            <input type="radio" id="cor-amarelo7-d" name="q7" value="D">
+            <label for="cor-amarelo7-d">D) Conectar peças físicas</label>
+
+
+        </form>
+    </div>
+
+    <div style="bottom: 315px;" class="quadrados">
+        <h2 class="pergunta"><strong>8- O que aconteceria se existisse apenas o hardware sem o software?</strong></h2>
+
+        <form>
+
+            <input type="radio" id="cor-branco8-a" name="q8" value="A">
+            <label for="cor-branco8-a"> A) O computador funcionaria normalmente</label><br>
+
+            <input type="radio" id="cor-azulturquesa8-b" name="q8" value="B">
+            <label for="cor-azulturquesa8-b">B) O computador seria mais rápido</label><br>
+
+            <input type="radio" id="cor-verde8-c" name="q8" value="C">
+            <label for="cor-verde8-c">C) O hardware seria apenas um conjunto de peças sem função prática</label><br>
+
+            <input type="radio" id="cor-amarelo8-d" name="q8" value="D">
+            <label for="cor-amarelo8-d">D) Os programas continuariam funcionando normalmente</label>
+
+
+        </form>
+    </div>
+
+
+    <center>
+        <button type="button" class="botao" onclick="Finalizar()">
+            <strong>FINALIZAR</strong>
+        </button>
+
+        <h2 style="color: aliceblue;" class="" id="resultado"></h2>
+    </center>
 
 
 
 
-<footer class="footer">
-   
-    
-</footer>
 
-        
+
+    <footer class="footer">
+
+
+    </footer>
+
+
 
     <!-- Fim das questões do quizteste -->
 
-    
-        
-        
+
+
+
 
 </body>
-</html> 
+
+</html>
