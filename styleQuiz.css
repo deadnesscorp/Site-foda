@@ -1,4 +1,4 @@
-    body {
+body {
         background-color: #112222;
         font-family: animeace, sans-serif;
     }
@@ -157,4 +157,15 @@ footer p {
     box-shadow: 2px 10px 3px rgba(0, 0, 0, 0.7);
    
     
+}
+.botao2 {
+    position: relative;
+    bottom: 150px;
+    left: 2px;
+    cursor: pointer;
+    transition: 0.5s;
+
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
 }

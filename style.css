@@ -1,3 +1,17 @@
-.h3 {
+body {
+    background-color: #ffffff;
+}  
+
+.botao {
     background-color: #690000;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
 }
+
+.botao:hover {
+    background-color: #8a0000;
+}
+

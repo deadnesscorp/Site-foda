@@ -36,6 +36,11 @@ function Finalizar() {
     for (let i = 0; i < radios.length; i++) {
         radios[i].disabled = true;
     }
-    document.querySelector(".botao").disabled = true;
-}
 
+    document.querySelector(".botao").disabled = true;
+
+    // Desce suavemente até o footer
+    document.getElementById("rodape").scrollIntoView({
+        behavior: "smooth"
+    });
+}
