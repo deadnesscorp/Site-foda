@@ -127,7 +127,7 @@ footer p {
     
 }
 
-.botao{
+.botao3{
     border: 0;
     border-radius: 100px;
     font-size: 35px;
@@ -137,11 +137,11 @@ footer p {
     cursor: pointer;
     transition: 0.5s;
 }
-.botao:hover{
+.botao3:hover{
     background-color: #3b6f6f;
     box-shadow: 12.5px 6px 5px rgba(0, 0, 0, 0.7);
 }
-.botao:active{
+.botao3:active{
     transform: translateY(4px);
     box-shadow: 4px 2px 3px rgba(0, 0, 0, 0.7);
 }
