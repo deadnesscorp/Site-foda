@@ -43,4 +43,8 @@ function Finalizar() {
     document.getElementById("rodape").scrollIntoView({
         behavior: "smooth"
     });
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 4ce64738358c5dc33dda0da358f219421c30e11b
